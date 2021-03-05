@@ -1,0 +1,25 @@
+{
+  "name": "DEOR-ON-CHAIN",
+  "version": "1.0.0",
+  "description": "DEOR Oracle Auditer",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/computercybersecurity/DecentralizedOracle",
+  "author": "Peter Park <peter.park13ak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "ganache-cli": "^6.1.2",
+    "truffle": "^5.1.62"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.4"
+  }
+}
